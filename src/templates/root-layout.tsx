@@ -1,9 +1,9 @@
-import '../styles.css';
+import "../styles.css";
 
-import type { ReactNode } from 'react';
+import type { ReactNode } from "react";
 
-import { Header } from '../components/header.js';
-import { Footer } from '../components/footer.js';
+import { Header } from "../components/header.js";
+import { Footer } from "../components/footer.js";
 
 type RootLayoutProps = { children: ReactNode };
 
@@ -25,8 +25,8 @@ export const RootLayout = async ({ children }: RootLayoutProps) => {
 
 const getData = async () => {
   const data = {
-    description: 'An internet website!',
-    icon: '/images/favicon.png',
+    description: "An internet website!",
+    icon: "/images/favicon.png",
   };
 
   return data;
